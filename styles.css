@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Уменьшен размер основного текста для лучшей читаемости */
+    line-height: 1.6; /* Увеличение межстрочного интервала */
+    background-color: #f4f4f4; /* Светлый фон для всего сайта */
+    color: #333; /* Более темный цвет текста для лучшего контраста */
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Шрифт для заголовков */
+    text-align: center; /* Центрирование заголовков */
+    color: #2c3e50; /* Темный цвет заголовков для контраста */
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px; /* Увеличен отступ для более комфортного восприятия */
+    text-align: center; /* Центрирование текста в заголовке */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для заголовка */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Центрирование навигационного меню */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Увеличены отступы между элементами меню */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9; /* Цвет ссылок для лучшего контраста */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Цвет при наведении для улучшенного эффекта */
+}
+
+.home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center; /* Центрирование текста на главной странице */
+    padding: 50px 20px; /* Отступы для контента */
+}
+
+.contacts {
+    background-color: #3498db; /* Используйте более привлекательный синий цвет */
+    color: #fff;
+    text-align: center; 
+    font-family: 'Verdana', sans-serif;
+    padding: 40px 20px; /* Увеличены отступы для лучшего восприятия */
+}
+
+.order {
+    background-color: #27ae60; 
+    color: #fff; 
+    text-align: center; 
+    font-family: 'Verdana', sans-serif;
+    padding: 40px 20px; /* Увеличены отступы для лучшего восприятия */
+}
+
+/* Добавление стиля для форм */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%; /* Ширина для полей ввода */
+    max-width: 500px; /* Максимальная ширина */
+    margin: 10px auto; /* Центрирование с отступами */
+    padding: 10px; /* Отступы для ввода текста */
+    border: 1px solid #ccc; /* Легкая граница */
+    border-radius: 4px; /* Закругленные углы */
+    font-size: 16px; /* Размер шрифта */
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #2980b9; /* Цвет кнопки отправки */
+    color: #fff; /* Цвет текста на кнопках */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Закругленные углы */
+    padding: 10px 20px; /* Отступы в кнопках */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #e74c3c; /* Цвет кнопки при наведении */
+}
